@@ -17,7 +17,7 @@ void capitalizeWords(char *str) {
 int main() {
     char str[1000];
 
-    printf("Введи рядок: ");
+    printf("Введи рядок(Англійською): ");
     fgets(str, sizeof(str), stdin);
 
     capitalizeWords(str);
